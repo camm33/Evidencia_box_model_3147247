@@ -12,33 +12,9 @@ en una caja tiene que haber contenido
 o debe tener ancho y alto
 */  
 
-.box1{
-    display: block;
-    background-color: darkkhaki;
-    border-radius: 20px;
-    border-top-width: 1px;
-    border-top-style: double;
-    border-style: solid;
-    border-width: 10px;
-    border-color: rgb(0, 0, 0);
-    padding-right: 50%; 
-    width: 13%;
-    height: 100px
-    }
 
-.box2{
-    display: block;
-    background-color: rgb(0, 0, 0);
-    border-radius: 0%;
-    border-color: rgb(66, 179, 245);
-    border-style: solid;
-    border-width: 10px;
-    border-color: rgb(121, 52, 212);
-    padding: 30px 45% 10px 20px;
-    width: 10px ;
-    height: 10px
-    
-}
+
+
  
 /* Estilos de identificador
 se denota con un #(numeral)
@@ -47,22 +23,50 @@ solo aplica a un elemento
 */
 
 #caja3{
-padding: 40px 20px;
-background-color: rgb(0, 0, 0);
-height: 100px;
+    margin: 20px auto;
+padding: 20px 20px;
+background-color: #323838;
+height: 800px;
+width: 800px;
 border-style: solid;
-border-color: rgb(233, 57, 224);
-border-width: 8px;
+border-color: #000000;
+border-width: 13px;
+border-radius: 2%;
 
 }
 
-#caja4{
-    height: 100px;
-    width: 1000px;
-    background-color:#464444;
-    padding: 5px;   
-    border-style: solid;
-    border-top-width: 70px;
-    border-left-width: 33px ;
-    border-left-color: rgb(255, 251, 0);
+#caja3>img{
+    padding: 15%;
+    height: 540x;
+    width: 540px;
+    border-radius: 200px;
+    margin-top: 10px;
+}
+
+
+.card .contenedor{
+    display: block;
+    margin: o auto 10px auto;
+    width: 300px;
+}
+
+.contenedor > h1{
+    display: block;
+    font-size: 46px;
+    text-align: center;
+}
+
+.contenedor > p{
+        display: block;
+    font-size: 26px;
+    text-align: center;
+}
+
+p + a{
+    display: block;
+    background-color: blue;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
 }
