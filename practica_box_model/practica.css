@@ -1,0 +1,68 @@
+
+/*selector de clase
+    -se determina con punto (.)
+    -todas las etiquetas con esa
+    clase tendran el mismo estilo
+
+*/
+
+/*Modelo de caja
+Contenido de texto, imagenes,videos, svg
+en una caja tiene que haber contenido
+o debe tener ancho y alto
+*/  
+
+.box1{
+    display: block;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    border-top-width: 1px;
+    border-top-style: double;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+    padding-right: 50%; 
+    width: 13%;
+    height: 100px
+    }
+
+.box2{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0%;
+    border-color: rgb(66, 179, 245);
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(121, 52, 212);
+    padding: 30px 45% 10px 20px;
+    width: 10px ;
+    height: 10px
+    
+}
+ 
+/* Estilos de identificador
+se denota con un #(numeral)
+solo aplica a un elemento 
+( un id = solo 1 elemento en el documento )
+*/
+
+#caja3{
+padding: 40px 20px;
+background-color: rgb(0, 0, 0);
+height: 100px;
+border-style: solid;
+border-color: rgb(233, 57, 224);
+border-width: 8px;
+
+}
+
+#caja4{
+    height: 100px;
+    width: 1000px;
+    background-color:#464444;
+    padding: 5px;
+    border-style: solid;
+    border-top-width: 70px;
+    border-left-width: 33px ;
+    border-left-color: rgb(255, 251, 0);
+}
